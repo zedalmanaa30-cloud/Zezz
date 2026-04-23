@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.headr {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 80px;
+
+}
+
+.logo {
+
+    width: 200px;
+}
+
+
+.headr-link a {
+    color: black;
+    background: linear-gradient(to bottom, #DDBD82, #C49A45, #5A4215);
+    ;
+    text-decoration-line: none;
+    justify-content: space-between;
+
+    padding: 20px 30px;
+    border-radius: 25px;
+    margin: 25px 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+
+
+
+}
+
+.headr-link a:hover {
+    background: linear-gradient(to bottom, #DDBD82, #C49A45, #5A4215);
+    ;
+    color: #7a5a1f;
+
+}
+
+.landing-page {
+    background-color: black;
+
+    padding-left: 25px;
+
+
+
+
+
+
+
+}
+
+h2 {
+    background: linear-gradient(to bottom, #DDBD82, #C49A45, #5A4215);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Fallback for older browsers */
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h3 {
+    background: linear-gradient(to bottom, #DDBD82, #C49A45, #5A4215);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Fallback for older browsers */
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    background: linear-gradient(to bottom, #DDBD82, #C49A45, #5A4215);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Fallback for older browsers */
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.span-line {
+    /* 1. The Metallic Gradient */
+    background: linear-gradient(to bottom, #433310 0%, #c49a45 50%, #5a4215 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* 2. Bold and Font Style */
+    font-weight: 900;
+    font-family: 'Arial Black', sans-serif;
+
+
+    /* 3. The 3D Pop (Subtle shadow to mimic the logo's depth) */
+
+
+    /* 4. Layout */
+    display: inline-block;
+    font-size: 1rem;
+    /* Adjust this to make it bigger or smaller */
+}
+
+
+
+.title-skils {
+    background-color: black;
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+
+
+.container {
+    display: grid;
+    /* ينشئ أعمدة تلقائية التكيف مع حجم الشاشة */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    /* المسافة بين البطاقات */
+    padding: 20px;
+    background-color: black;
+}
+
+.card {
+    background: #222;
+    /* لون غامق ليتناسب مع تصميمك */
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* لضمان عدم تشوه الصور */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.padding-h2 {
+    padding-bottom: 5px;
+}
+
+.footer {
+    background-color: black;
+    justify-content: end;
+    display: flex;
+}
